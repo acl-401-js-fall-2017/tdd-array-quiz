@@ -1,0 +1,28 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lib": "lib",
+    "pretest": "npm run lint",
+    "test": "MOCHA_REPORTER_STACK_EXCLUDE=**/** mocha --reporter mocha-better-spec-reporter",
+    "test:callstack": "mocha",
+    "start": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckrountree/tdd-array-quiz.git"
+  },
+  "author": "CK Rountree <jmail0207@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckrountree/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/ckrountree/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1"
+  }
+}
