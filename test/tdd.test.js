@@ -1,10 +1,10 @@
-const assert = require('assert')
-const tdd =require('../lib/tdd');
+const assert = require('assert');
+const greater = require('../lib/tdd');
 
 describe('tdd', () => {
     it('returns different array with square values', () => {
         const arr = [1,4,5,7];
-        const sqArr = tdd.square(arr);
-        assert.deepEqual(sqArr, [1,16,25,49]);
+        const greaterArr = greater(arr);
+        assert.deepEqual(greaterArr, [25,49]);
     });
 })
