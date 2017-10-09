@@ -1,0 +1,25 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martsyalis/tdd-array-quiz.git"
+  },
+  "author": "Maryus Martsyalis <martsyalis@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martsyalis/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/Martsyalis/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1"
+  }
+}
