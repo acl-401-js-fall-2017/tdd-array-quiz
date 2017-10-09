@@ -1,5 +1,5 @@
 const assert = require('assert');
-const square = require('../lib/arraymethod')
+const square = require('../lib/arraymethod');
 
 
 describe('test array method', () => {
