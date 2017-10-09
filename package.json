@@ -1,0 +1,24 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdemkoral/tdd-array-quiz.git"
+  },
+  "author": "Erdem Koral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdemkoral/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/erdemkoral/tdd-array-quiz#readme",
+  "dependencies": {
+    "enlist": "^0.1.0",
+    "mocha": "^4.0.1"
+  }
+}
