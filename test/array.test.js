@@ -1,5 +1,5 @@
 const assert = require('assert');
-const numbers = require('../tdd-array-quiz/lib/numbers');
+const numbers = require('../lib/numbers');
 
 
 describe('takes an array of numbers', () => {
