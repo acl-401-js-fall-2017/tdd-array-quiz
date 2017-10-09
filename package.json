@@ -1,0 +1,25 @@
+{
+  "name": "tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm run -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acl-401-js-fall-2017/tdd-array-quiz.git"
+  },
+  "keywords": [],
+  "author": "David Nishikawa <triptype@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acl-401-js-fall-2017/tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/acl-401-js-fall-2017/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1"
+  }
+}
