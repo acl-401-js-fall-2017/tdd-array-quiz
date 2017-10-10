@@ -19,3 +19,5 @@ Besides your `lib` and `tests`, your repo should include:
 Quiz is open book, internet, etc...
 
 Goal is have PR with passing travis by end of alotted time.
+
+
