@@ -5,20 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "start": "npm run test -- -w"
+    "start": "npm run -- -w"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erdemkoral/tdd-array-quiz.git"
+    "url": "git+https://github.com/acl-401-js-fall-2017/tdd-array-quiz.git"
   },
-  "author": "Erdem Koral",
+  "keywords": [],
+  "author": "David Nishikawa <triptype@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erdemkoral/tdd-array-quiz/issues"
+    "url": "https://github.com/acl-401-js-fall-2017/tdd-array-quiz/issues"
   },
-  "homepage": "https://github.com/erdemkoral/tdd-array-quiz#readme",
-  "dependencies": {
-    "enlist": "^0.1.0",
+  "homepage": "https://github.com/acl-401-js-fall-2017/tdd-array-quiz#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
     "mocha": "^4.0.1"
   }
 }
